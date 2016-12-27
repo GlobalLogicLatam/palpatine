@@ -1,0 +1,17 @@
+{
+  "name": "palpatine",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "nicolassigalgl"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/globallogicargentina/palpatine",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
