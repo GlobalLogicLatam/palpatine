@@ -2,12 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector:'palpatine-app',
-    templateUrl: './app/main.template.html'
+    templateUrl: './dist/main.template.html'
 })
 
-
-export class AppComponent  {
-    constructor() {
-
-    }
-}
+export class AppComponent  { }

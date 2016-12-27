@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import {AppService} from './../../services/app.service';
 
 @Component({
-    templateUrl: './app/routes/page2/page2.template.html',
+    templateUrl: './dist/routes/page2/page2.template.html',
     providers:[AppService]
 })
 

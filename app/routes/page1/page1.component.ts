@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-    templateUrl: './app/routes/page1/page1.template.html',
+    templateUrl: './dist/routes/page1/page1.template.html',
 })
 
 export class Page1  {

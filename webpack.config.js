@@ -1,5 +1,6 @@
 var webpack = require('webpack'),
     ExtractTextPlugin = require('extract-text-webpack-plugin'),
+    CopyWebpackPlugin = require('copy-webpack-plugin'),
     path = require('path');
 
 module.exports = {
@@ -35,10 +36,13 @@ module.exports = {
             { test: /\.scss$/, include: /.scss$/, loader: ExtractTextPlugin.extract("style-loader", "css-loader!sass-loader") }
         ]
     },
-
+    devServer: {
+        outputPath: 'dist'
+    },
     plugins: [
             new webpack.optimize.UglifyJsPlugin({compress: { warnings: false }}),
             new ExtractTextPlugin('/[name].css',{ allChunks: true }),
-            new webpack.ProvidePlugin({  jQuery: 'jquery',  $: 'jquery', jquery: 'jquery' })
+            new webpack.ProvidePlugin({  jQuery: 'jquery',  $: 'jquery', jquery: 'jquery' }),
+            new CopyWebpackPlugin([{ context: 'app/', from: '**/*' }], {ignore: ['*.ts','*.scss']})
        ]
 };

@@ -13,7 +13,7 @@
     "url": "https://github.com/globallogicargentina/palpatine/issues"
   },
   "scripts": {
-    "start": "webpack | webpack-dev-server --watch"
+    "start": "webpack | webpack-dev-server --watch --inline --hot"
   },
   "homepage": "https://github.com/globallogicargentina/palpatine#readme",
   "dependencies": {
@@ -45,6 +45,7 @@
     "zone.js": "^0.7.4"
   },
   "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
     "typescript": "^2.0.10",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
