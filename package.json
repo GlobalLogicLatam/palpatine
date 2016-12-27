@@ -29,6 +29,7 @@
     "@angular/router": "~3.4.0",
     "@angular/upgrade": "~2.4.0",
     "angular-in-memory-web-api": "~0.2.1",
+    "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
     "css-loader": "^0.26.1",
     "extract-text-webpack-plugin": "^1.0.1",
