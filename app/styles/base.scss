@@ -5,7 +5,7 @@ html{
 	body{
 		background-color:$palpatine-black;
 		background-size: cover;
-		height: calc(100% - #{$navbar-height});
-		padding-top: $navbar-height;
+		height:calc(100% - #{$navbar-height});
+		margin-top:$navbar-height;
 	}
 }
