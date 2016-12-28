@@ -1,4 +1,4 @@
 # Welcome to palpatine
 ## Steps to run this project.
-1. run npm install
-2. run npm start
+1. run: npm install
+2. run: npm run start
