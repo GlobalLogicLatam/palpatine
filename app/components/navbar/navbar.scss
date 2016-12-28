@@ -1,0 +1,16 @@
+@import './../../styles/mixins/main';
+
+.nav{
+  border-radius: 0;
+  .navbar {
+    &-brand{
+      color:$palpatine-red;
+    }
+    border-bottom: 2px solid $palpatine-red;
+    position: fixed;
+    height: $navbar-height;
+    top: 0;
+    left:0;
+    width:100%;
+  }
+}

@@ -5,8 +5,10 @@ import { Component } from '@angular/core';
 })
 
 export class HomeComponent  {
+
     title: String;
+
     constructor() {
-        this.title = "Home Page";
+        this.title = "Welcome to Palpatine Project";
     }
 }

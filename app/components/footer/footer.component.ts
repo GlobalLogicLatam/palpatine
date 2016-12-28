@@ -6,6 +6,4 @@ import { Component } from '@angular/core';
     templateUrl: './dist/components/footer/footer.template.html',
 })
 
-export class FooterComponent {
-
-}
+export class FooterComponent { }

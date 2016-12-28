@@ -1,8 +1,11 @@
-// @import 'mixins/main';
-// @import 'modules/main';
+ @import 'mixins/main';
+ @import 'modules/main';
 
 html{
 	body{
-		background-color:red;
+		background-color:$palpatine-black;
+		background-size: cover;
+		height: calc(100% - #{$navbar-height});
+		padding-top: $navbar-height;
 	}
 }

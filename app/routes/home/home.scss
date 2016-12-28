@@ -1,0 +1,24 @@
+@import './../../styles/mixins/main';
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+      img{
+        border: 5px solid $palpatine-red;
+        width: 275px;
+        height: 275px;
+      }
+  .welcome-msg{
+    margin-top:5%;
+    border-top:5px solid $palpatine-red;
+    border-bottom:5px solid $palpatine-red;
+    h1 {
+      color: white;
+      padding: 20px 30px;
+      margin: 0px;
+    }
+  }
+}
