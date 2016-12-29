@@ -1,5 +1,23 @@
 export class AppService {
-    getParticipants(): string []{
-        return ["Name Lastname", "Name Lastname","Name Lastname"];
+
+    participants: Object[];
+    constructor() {
+        this.participants = [
+            {
+                name: "Nicolas",
+                lastname: "Sigal"
+            },
+            {
+                name: "Nicolas",
+                lastname: "Sigal"
+            },
+            {
+                name: "Nicolas",
+                lastname: "Sigal"
+            },
+        ];
+    }
+    getParticipants(): Object[] {
+        return this.participants
     }
 }

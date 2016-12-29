@@ -1,0 +1,18 @@
+@import './../../styles/mixins/main';
+
+.manager {
+    padding-top:$navbar-height;
+    color: white;
+    .btn-palpatine{
+        margin-top: 25px;
+    }
+    .form-control{
+        outline: none;
+        border: 1px solid $palpatine-red;
+    }
+    .input-group-addon{
+        background-color: $palpatine-red;
+        border-color:$palpatine-red;
+        color:white;
+    }
+}

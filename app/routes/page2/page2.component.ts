@@ -9,7 +9,7 @@ import {AppService} from './../../services/app.service';
 export class Page2  {
     title: String;
     subtitle: String;
-    participants: String [];
+    participants: Object [];
 
     constructor(appService: AppService) {
         this.title = "Page 2";

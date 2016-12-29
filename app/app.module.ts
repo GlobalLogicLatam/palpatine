@@ -7,7 +7,7 @@ import { FooterComponent }  from './components/footer/footer.component';
 
 import { AppComponent }  from './app.component';
 import { HomeComponent }  from './routes/home/home.component';
-import { Page1 }  from './routes/page1/page1.component';
+import { ManagerComponent }  from './routes/manager/manager.component';
 import { Page2 }  from './routes/page2/page2.component';
 
 @NgModule({
@@ -22,7 +22,7 @@ import { Page2 }  from './routes/page2/page2.component';
     NavbarComponent,
     FooterComponent,
     HomeComponent,
-    Page1,
+    ManagerComponent,
     Page2
   ],
   bootstrap: [

@@ -3,7 +3,7 @@
     <h2><i class="fa fa-star"></i> {{title}}</h2>
     <p><i class="fa fa-check text-success"></i> {{subtitle}}</p>
     <ul>
-        <li class="list-unstyled" *ngFor="let participant of participants"><i class="fa fa-user"></i> {{participant}}
+        <li class="list-unstyled" *ngFor="let participant of participants"><i class="fa fa-user"></i> {{participant.name}} {{participant.lastname}}
         </li>
     </ul>
 </div>

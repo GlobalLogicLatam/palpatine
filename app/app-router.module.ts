@@ -2,12 +2,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { NgModule }      from '@angular/core';
 
 import { HomeComponent }  from './routes/home/home.component';
-import { Page1 }  from './routes/page1/page1.component';
+import { ManagerComponent }  from './routes/manager/manager.component';
 import { Page2 }  from './routes/page2/page2.component';
 
 const appRoutes: Routes = [
     { path: 'home', component: HomeComponent },
-    { path: 'page1', component: Page1 },
+    { path: 'meeting-manager', component: ManagerComponent },
     { path: 'page2', component: Page2 },
     { path: '',   component: HomeComponent },
     { path: '**', component: HomeComponent },

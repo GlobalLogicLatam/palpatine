@@ -9,6 +9,6 @@ export class HomeComponent  {
     title: String;
 
     constructor() {
-        this.title = "Welcome to Palpatine Project";
+        this.title = "Palpatine Meeting Manager";
     }
 }

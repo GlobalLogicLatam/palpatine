@@ -2,12 +2,12 @@
 <nav class="navbar nav navbar navbar-default">
     <div class="navbar-header">
         <a class="navbar-brand" href="#">
-            Palpatine Project
+            Palpatine
         </a>
     </div>
     <ul class="nav navbar-nav pull-right">
-        <li><a href="#" routerLink="/home" routerLinkActive="active"> Home </a></li>
-        <li><a href="#" routerLink="/page1"> Page 1 </a></li>
-        <li><a href="#" routerLink="/page2"> page 2 </a></li>
+        <li><a href="#" routerLink="/home" [routerLinkActive]="['active']"> Home </a></li>
+        <li><a href="#" routerLink="/meeting-manager" [routerLinkActive]="['active']"> Meeting Manager </a></li>
+        <li><a href="#" routerLink="/page2" [routerLinkActive]="['active']"> History </a></li>
     </ul>
 </nav>

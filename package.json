@@ -13,8 +13,9 @@
     "url": "https://github.com/globallogicargentina/palpatine/issues"
   },
   "scripts": {
-    "build:sass": "node-sass app/ -w -o dist/",
-    "start": "npm run build:sass | webpack |  webpack-dev-server --watch --inline --colors"
+    "build:sass": "node-sass app/ -o dist/ --compress",
+    "watch:sass": "node-sass app/ -w -o dist/",
+    "start": "npm run watch:sass | npm run build:sass | webpack |  webpack-dev-server  --content-base ./ --port 3000 --hot --inline"
   },
   "homepage": "https://github.com/globallogicargentina/palpatine#readme",
   "dependencies": {
