@@ -1,6 +1,7 @@
 export class AppService {
 
-    participants: Object[];
+    participants: Object [];
+
     constructor() {
         this.participants = [
             {
@@ -17,7 +18,8 @@ export class AppService {
             },
         ];
     }
-    getParticipants(): Object[] {
+
+    getParticipants(): Object [] {
         return this.participants
     }
 }
